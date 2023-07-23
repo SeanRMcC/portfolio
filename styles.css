@@ -8,10 +8,14 @@
     src: url("./assets/Roboto.ttf");
 }
 
-h1{
-    font-family: Satisfy;
+*{
+    font-family: Roboto;
 }
 
-p{
-    font-family: Roboto;
+body{
+    margin: 0;
+}
+
+.name{
+    font-family: Satisfy;
 }
