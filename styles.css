@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Satisfy;
+    src: url("./assets/Satisfy.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("./assets/Roboto.ttf");
+}
+
+h1{
+    font-family: Satisfy;
+}
+
+p{
+    font-family: Roboto;
+}
