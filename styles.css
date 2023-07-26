@@ -15,6 +15,7 @@
 
 body{
     margin: 0;
+    padding: 0 50px;
 }
 
 .name{
@@ -41,7 +42,7 @@ body{
 
 .project-title-links{
     display: flex;
-
+    gap: 8px;
 }
 
 .project-title-links > h4{
@@ -52,9 +53,17 @@ body{
 .projects{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 125px;
+    gap: 75px;
 }
 
 .project > img{
     width: 100%;
+}
+
+.project{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-body{
+    padding: 20px;
 }
