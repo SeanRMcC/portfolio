@@ -20,6 +20,7 @@ body{
 
 .name{
     font-family: Satisfy;
+    font-size: 2.5rem;
 }
 
 .header-icon{
@@ -51,8 +52,7 @@ header > h1{
     left: 10px;
     bottom: 10px;
     color: white;
-    background-color: rgba(0,0,0,0.5);
-    border-radius: 10px;
+    background-color: rgba(0,0,0,0.4);
     padding: 5px 10px;
 }
 
@@ -100,4 +100,30 @@ main{
 
 .project-body{
     padding: 20px;
+}
+
+footer{
+    display: flex;
+    padding: 50px 0;
+}
+
+footer > img{
+    width: 45vw;
+    height: auto;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact > h2{
+    margin: 0;
+}
+
+.footer-info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
