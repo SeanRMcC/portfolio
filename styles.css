@@ -15,7 +15,6 @@
 
 body{
     margin: 0;
-    padding: 0 50px;
 }
 
 .name{
@@ -50,7 +49,7 @@ header{
 
 header > h1{
     position: absolute;
-    left: 10px;
+    left: 60px;
     bottom: 10px;
     color: white;
     background-color: rgba(0,0,0,0.4);
@@ -109,7 +108,7 @@ footer{
 }
 
 footer > img{
-    width: 45vw;
+    width: 40vw;
     height: auto;
 }
 
@@ -127,4 +126,11 @@ footer > img{
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+header,
+main,
+footer{
+    padding-left: 50px;
+    padding-right: 50px;
 }
